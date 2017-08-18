@@ -1,0 +1,7 @@
+FROM microsoft/nanoserver
+
+COPY . .
+
+EXPOSE 8732
+
+ENTRYPOINT WarehouseService.exe
